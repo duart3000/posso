@@ -1047,7 +1047,7 @@ form {
 		margin-right: auto !important;
 		width: 100%;
 		max-width: 350px !important;
-		display: block !important;
+		display: block;
 	}
 	
 	form label {
@@ -2811,8 +2811,8 @@ html:not(.page-loaded) .slides.scroll .slide {
 				padding: 0;
 
 				svg {
-					width: 18px;
-					height: 18px;
+					width: 24px;
+					height: 24px;
 				}
 			}
 		}

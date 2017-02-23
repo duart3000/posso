@@ -1252,7 +1252,7 @@ form.center textarea {
     margin-right: auto !important;
     width: 100%;
     max-width: 350px !important;
-    display: block !important;
+    display: block;
   }
   form label {
     margin-top: 30px;
@@ -3218,8 +3218,8 @@ html:not(.page-loaded) .slides.scroll .slide {
 }
 
 .sidebar .social li a svg {
-  width: 18px;
-  height: 18px;
+  width: 24px;
+  height: 24px;
 }
 
 .sidebar .social.small li {
